@@ -93,7 +93,7 @@ function NewCreate() {
                   <textarea
                     rows="4"
                     name="message"
-                    className="form-control fm_sty2"
+                    className="form-control fm_sty2_mes"
                     id="message"
                     placeholder="Comment"
                     required="required"

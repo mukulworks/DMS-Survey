@@ -1,0 +1,239 @@
+body{ padding: 0px; margin: 0px; font-family: Rubik !important;
+        
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:480px) {
+
+    .mn_bdy {
+        height: auto !important;
+        display: block;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        float: left;
+        background: #554994;
+    }
+
+.body2 {
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    font-family: Rubik !important;
+    background: #554994;
+}
+
+.fom_wd {
+margin-bottom: 5px;
+width: 93%;
+margin-top: 0;
+position: relative;
+}
+
+.logn_bg2_mn {
+border-radius: 40px 40px 0px 0px;
+background: #fff;
+max-height: 590px;
+
+}
+
+.mobile_logo{ width: 100%; float: left; display: inherit !important; text-align: center;}
+
+.mobile_logo img{text-align: center;
+margin: 0 auto;
+padding: 40px 0 40px 0;}
+
+
+.pending_survey_mn {
+width: 100%;
+float: left;
+background: #fff;
+border-radius: 40px 40px 0px 0px;
+padding: 15px 0;
+}
+
+.fm_styl {
+width: 76%;
+}
+
+.form_mn_wd {
+width: 100%;
+float: left;
+margin-top: 40px;
+padding-left: 0;
+min-height: 100vh;
+display: inline-block;
+}
+
+.leber_tx span {
+width: 45%;
+font: normal normal normal 14px / 22px Segoe UI;
+letter-spacing: 0px;
+color: #2E2E2E;
+opacity: 1;
+font-weight: 600;
+}
+
+.header_top {
+background: #554994;
+width: 100%;
+float: left;
+padding: 26px 2px;
+}
+
+.aro_btn2 {
+width: 100%;
+float: right;
+text-align: right;
+position: absolute;
+right: 0;
+margin: 0 auto;
+text-align: center;
+margin-top: 40px;
+}
+
+.survey_wd{ margin-top: 27px; }
+
+.survey_wd4 {
+width: 100%;
+float: left;
+padding-left: 0px;
+
+}
+
+.crt_btn2 {
+border: none !important;
+color: #fff;
+width: 145px;
+height: 39px;
+margin-top: 26px;
+font-size: 16px;
+background: #554994 0% 0% no-repeat padding-box;
+box-shadow: 0px 4px 7px #D3CDF3;
+border-radius: 24px;
+opacity: 1;
+margin-left: 58px;
+position: absolute;
+top: 0px;
+right: 19px;
+}
+
+.table_mn_bx {
+width: 95%;
+float: left;
+border: solid 1px #D3CDF3;
+border-radius: 9px;
+margin-left: 9px;
+margin-top: 8px;
+padding-bottom: 90px;
+background: #fff;
+margin-bottom: 40px;
+}
+
+.survey_wd1 {
+width: auto !important;
+float: left;
+padding-left: 5px;
+}
+
+.survey_wd1 h2 {
+font: normal normal 600 18px / 21px Segoe UI;
+letter-spacing: 0px;
+color: #000000;
+}
+
+.tex1 {
+width: 10%;
+float: left;
+}
+
+.tex1 p {
+margin: 0;
+font: normal normal normal 20px / 38px Segoe UI;
+letter-spacing: 0px;
+color: #2E2E2E;
+opacity: 1;
+}
+
+.tex2 {
+width: 74%;
+float: left;
+}
+
+.tex2 p {
+margin: 0;
+font: normal normal normal 21px / 32px Segoe UI;
+letter-spacing: 0px;
+color: #2E2E2E;
+opacity: 1;
+}
+
+.tex3 {
+float: left;
+width: 100%;
+padding-left: 34px;
+margin-top: -13px;
+}
+
+.tex3 p {
+font: normal normal normal 16px / 38px Segoe UI;
+letter-spacing: 0px;
+color: #2E2E2E;
+opacity: 1;
+margin: 0;
+padding: 0;
+}
+
+.tex4 {
+float: right;
+position: absolute;
+right: 23px;
+margin-top: 5px;
+}
+
+.font_con {
+border: solid 2px #554994;
+border-radius: 50%;
+width: 35px;
+height: 35px;
+line-height: 35px;
+font-size: 18px;
+color: #554994;
+text-align: center;
+}
+
+.table_hd {
+background: #D3CDF3;
+border-radius: 9px 9px 0px 0px;
+padding: 12px;
+width: 100%;
+float: left;
+display: none;
+}
+
+.mn_clr_full {
+width: 100%;
+float: left;
+background: #fff;
+border-radius: 40px 40px 0px 0px;
+position: relative;
+}
+
+#custom-search-input {
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #D3CDF3;
+border: 1px solid #7B68DB;
+border-radius: 22px;
+margin-top: 20px;
+width: 100%;
+height: 42px;
+}
+
+}
+
+

@@ -1,5 +1,6 @@
 import React from "react";
 import "../src/Component/css/style.css";
+import "../src/Component/css/mobilestyle.css"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import routes from "../src/Component/utiles/routes.index";
 function App() {

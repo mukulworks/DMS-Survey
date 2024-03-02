@@ -72,6 +72,10 @@ function LogInScreen() {
 
   return (
     <div className="body2">
+      <div className="mobile_logo">
+
+      <img className="img-responsive" src={logo} alt="" />
+</div>
       <div className="pic">
         <div className="pic_tx_mn">
           <img className="img-responsive fm_icon" src={logo} alt="" />
@@ -80,8 +84,9 @@ function LogInScreen() {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container logn_bg2_mn">
         <div className="pic2"></div>
+        
         <div className="log_tx_mn">
           <h2>Login to Continue</h2>
         </div>

@@ -16,6 +16,8 @@ function PendingSurvey() {
         </div>
       </div>
 
+
+      <div className="mn_clr_full">
       <div className="pending_survey_mn">
         <div className="container-fluid">
           <div className="survey_wd1">
@@ -91,6 +93,9 @@ function PendingSurvey() {
           </div>
         </div>
       </div>
+
+
+    </div>
     </div>
   );
 }
