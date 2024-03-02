@@ -600,3 +600,8 @@ a:hover {
   float: left;
   padding-left: 30px;
 }
+
+.form {
+  width: 100%;
+  display: contents;
+}
