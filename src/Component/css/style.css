@@ -4,7 +4,7 @@ body {
   font-family: Rubik !important;
 }
 
-body {
+.body2 {
   display: flex;
   width: 100vw;
   height: 100vh;
@@ -35,7 +35,7 @@ h3 {
   background: url(../images/login_bg.jpg) left top no-repeat;
   width: 100%;
   float: left;
-  width: 50%;
+  width: 100%;
   height: 100%;
   overflow: hidden;
   background-size: cover;
@@ -59,6 +59,7 @@ h3 {
   width: 150px;
   height: 43px;
   color: #fff;
+  margin: 0 5px 0 0;
 }
 .use_btn img {
   display: inline-block;
