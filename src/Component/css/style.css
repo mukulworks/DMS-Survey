@@ -65,10 +65,10 @@ h3 {
   margin: 0 7px 0 0;
 }
 
-.use_btn:hover {
+/* .use_btn:hover {
   background: #554994;
   border: none;
-}
+} */
 
 .admin_btn {
   border-radius: 18px;
@@ -78,10 +78,10 @@ h3 {
   border: none;
   color: #fff;
 }
-.admin_btn:hover {
+/* .admin_btn:hover {
   background: #554994;
   border: none;
-}
+} */
 
 .admin_btn img {
   display: inline-block;
@@ -128,10 +128,10 @@ h3 {
   position: relative;
 }
 
-button:hover {
+/* button:hover {
   background-color: #1717c2;
   border: 2px solid #1717c2;
-}
+} */
 
 .pic_tx_mn {
   top: 50%;

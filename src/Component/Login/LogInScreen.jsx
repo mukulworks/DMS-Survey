@@ -12,6 +12,11 @@ function LogInScreen({ loggedIn }) {
   const [company, setCompany] = useState("");
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [selectedRole, setSelectedRole] = useState("user");
+
+  const handleRoleSelect = (role) => {
+    setSelectedRole(role);
+  };
 
   // const navigate = useNavigate();
 
@@ -82,10 +87,18 @@ function LogInScreen({ loggedIn }) {
           <h2>Login to Continue</h2>
         </div>
         <div className="ftr_md3">
-          <button type="button" className="use_btn">
+          <button
+            type="button"
+            className={selectedRole === "user" ? "use_btn" : "admin_btn"}
+            onClick={() => handleRoleSelect("user")}
+          >
             <img className="img-responsive" src={user_icon_btn} alt="" /> User
           </button>
-          <button type="button" className="admin_btn">
+          <button
+            type="button"
+            className={selectedRole === "admin" ? "use_btn" : "admin_btn"}
+            onClick={() => handleRoleSelect("admin")}
+          >
             <img className="img-responsive" src={admin_icon_btn} alt="" /> Admin
           </button>
         </div>
