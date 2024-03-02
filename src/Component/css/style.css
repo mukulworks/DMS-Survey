@@ -275,6 +275,7 @@ a:hover {
   font: normal normal 600 25px/33px Segoe UI;
   letter-spacing: 0px;
   color: #000000;
+  margin-top: 15px;
 }
 
 .line1 {
@@ -284,6 +285,7 @@ a:hover {
   width: 94px;
   float: left;
   margin: 0;
+  opacity: inherit;
 }
 
 .survey_wd2 {
@@ -309,7 +311,7 @@ a:hover {
   box-shadow: none;
   background: none;
   font-size: 13px;
-  padding-top: 5px;
+  padding-top: 13px;
 }
 
 #custom-search-input button {
