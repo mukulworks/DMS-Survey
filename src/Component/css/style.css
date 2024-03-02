@@ -328,7 +328,7 @@ a:hover {
 #custom-search-input button:hover {
   border: 0;
   box-shadow: none;
-  border-left: solid 1px #ccc;
+  border-left: none;
 }
 
 #custom-search-input .glyphicon-search {
