@@ -4,6 +4,7 @@ import toast from "react-hot-toast";
 import "../css/style.css";
 import companyid_icon from "../images/companyid_icon.png";
 import eye_icon from "../images/eye.png";
+import open_eye_icon from "../images/open_eye_icon.png";
 import logo from "../images/logo.png";
 import user_icon_btn from "../images/user_icon_btn.png";
 import user_id_btn from "../images/userid_icon.png";
@@ -117,7 +118,7 @@ function LogInScreen() {
               src={companyid_icon}
               alt=""
             />
-            <img className="img-responsive fm_icon2" src={eye_icon} alt="" />
+            {/* <img className="img-responsive fm_icon2" src={eye_icon} alt="" /> */}
           </div>
           <div className="form-group fom_wd">
             <input
@@ -129,11 +130,7 @@ function LogInScreen() {
               onChange={(e) => setUsername(e.target.value)}
               required
             />
-            <img
-              className="img-responsive fm_icon"
-              src={user_id_btn}
-              alt=""
-            />
+            <img className="img-responsive fm_icon" src={user_id_btn} alt="" />
           </div>
           <div className="form-group fom_wd">
             <input
@@ -152,7 +149,7 @@ function LogInScreen() {
             />
             <img
               className="img-responsive fm_icon2"
-              src={eye_icon}
+              src={showPassword ? open_eye_icon : eye_icon}
               alt=""
               onClick={togglePasswordVisibility}
             />

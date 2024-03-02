@@ -1,14 +1,14 @@
 body {
   padding: 0px;
   margin: 0px;
-  font-family: Rubik !important;
+  font-family: Segoe UI !important;
 }
 
 .body2 {
   display: flex;
   width: 100vw;
   height: 100vh;
-  font-family: Rubik !important;
+  font-family: Segoe UI !important;
 }
 
 .h1,
@@ -17,7 +17,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: Rubik !important;
+  font-family: Segoe UI !important;
 }
 
 .container {
@@ -60,6 +60,7 @@ h3 {
   height: 43px;
   color: #fff;
   margin: 0 5px 0 0;
+  font-family: Roboto;
 }
 .use_btn img {
   display: inline-block;
@@ -79,6 +80,7 @@ h3 {
   border: none;
   color: #fff;
   margin: 0 5px 0 0;
+  font-family: Roboto;
 }
 /* .admin_btn:hover {
   background: #554994;
@@ -88,9 +90,6 @@ h3 {
 .admin_btn img {
   display: inline-block;
   margin: 0 7px 0 0;
-}
-
-.log_tx_mn {
 }
 
 .log_tx_mn h2 {
@@ -121,6 +120,7 @@ h3 {
   position: absolute;
   top: 20px;
   right: 16px;
+  width: 20px;
 }
 
 .fom_wd {
@@ -167,6 +167,7 @@ h3 {
   font: normal normal normal 23px / 9px Futura Bk BT;
   letter-spacing: 1.1px;
   color: #ffffff;
+  font-family: Roboto;
 }
 
 .pic_tx_mn img {
@@ -306,13 +307,15 @@ a:hover {
   margin-top: 20px;
   width: 90%;
   height: 42px;
+  font-family: Segoe UI;
 }
 #custom-search-input input {
   border: 0;
   box-shadow: none;
   background: none;
-  font-size: 13px;
-  padding-top: 13px;
+  font-size: 15px;
+  padding-top: 10px;
+  margin-left: 5px;
 }
 
 #custom-search-input button {
@@ -354,6 +357,7 @@ a:hover {
   border-radius: 24px;
   opacity: 1;
   margin-left: 205px;
+  font-family: Roboto;
 }
 
 .table_mn_bx {
@@ -503,9 +507,6 @@ a:hover {
   display: inline-flex;
 }
 
-.arro_mn img {
-}
-
 .survey_wd2 {
   width: 100%;
   float: left;
@@ -550,6 +551,7 @@ a:hover {
   border-radius: 5px !important;
   opacity: 1;
   height: 40px;
+  font-family: Segoe UI;
 }
 
 .arrow {
@@ -562,6 +564,7 @@ a:hover {
   margin-left: 0 !important;
   font-size: 17px;
   text-decoration: none;
+  font-family: Roboto;
 
   &::after {
     display: inline-block;
@@ -615,8 +618,9 @@ a:hover {
   margin-top: 20px;
 }
 
-.mobile_logo{ display: none;}
-
+.mobile_logo {
+  display: none;
+}
 
 .fm_sty2_mes {
   background: #ffffff 0% 0% no-repeat padding-box;
@@ -625,6 +629,7 @@ a:hover {
   border-radius: 5px !important;
   opacity: 1;
   height: 85px;
+  font-family: Segoe UI;
 }
 
 .src_icn2 {
