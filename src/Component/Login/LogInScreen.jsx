@@ -6,6 +6,7 @@ import companyid_icon from "../images/companyid_icon.png";
 import eye_icon from "../images/eye.png";
 import logo from "../images/logo.png";
 import user_icon_btn from "../images/user_icon_btn.png";
+import user_id_btn from "../images/userid_icon.png";
 import admin_icon_btn from "../images/admin_icon_btn.png";
 import password_icon from "../images/password_icon.png";
 import { submitCredential, LOGIN_HEADER } from "../utiles/api_constant";
@@ -136,7 +137,7 @@ function LogInScreen() {
             />
             <img
               className="img-responsive fm_icon"
-              src={companyid_icon}
+              src={user_id_btn}
               alt=""
             />
           </div>

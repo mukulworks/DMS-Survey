@@ -34,7 +34,7 @@ function PendingSurvey() {
                 />
                 <span className="input-group-btn">
                   <button className="btn btn-info btn-lg" type="button">
-                    <i className="glyphicon glyphicon-search"></i>
+                  <i className="fa fa-fw src_icn2" aria-hidden="true"></i>
                   </button>
                 </span>
               </div>
