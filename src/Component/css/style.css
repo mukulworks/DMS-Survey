@@ -535,17 +535,19 @@ a:hover {
   float: left;
   margin-top: 40px;
   padding-left: 17px;
+  display: inline-flex;
 }
 
 .fm_styl {
   width: 40%;
+  margin-bottom: 15px;
 }
 
 .fm_sty2 {
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 2px 4px 8px #d3cdf352;
-  border: 0.5px solid #8471e6;
-  border-radius: 5px;
+  border: 0.5px solid #8471e6 !important;
+  border-radius: 5px !important;
   opacity: 1;
   height: 40px;
 }
@@ -559,6 +561,7 @@ a:hover {
   padding: 11px 45px;
   margin-left: 0 !important;
   font-size: 17px;
+  text-decoration: none;
 
   &::after {
     display: inline-block;
@@ -604,4 +607,10 @@ a:hover {
 .form {
   width: 100%;
   display: contents;
+}
+
+.survey_wd {
+  width: 100%;
+  float: left;
+  margin-top: 20px;
 }
