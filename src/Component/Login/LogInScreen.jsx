@@ -16,13 +16,17 @@ function LogInScreen() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [selectedRole, setSelectedRole] = useState("user");
-  const [loggedIn, setLoggedIn] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
+
+  const url = submitCredential;
+  const headers = LOGIN_HEADER;
 
   const handleRoleSelect = (role) => {
     setSelectedRole(role);
   };
-  const url = submitCredential;
-  const headers = LOGIN_HEADER;
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
 
   // const navigate = useNavigate();
 
@@ -37,14 +41,6 @@ function LogInScreen() {
       versionCode: "SERVICE_RECEPTION",
       macAddress: "90:e7:c4:04:cb:39",
     };
-
-    console.log("param -", param);
-    console.log("url -", url);
-
-    let body = JSON.stringify(param);
-    console.log("body -", body);
-
-    console.log("headers -", headers);
     fetch(url, {
       method: "POST",
       body: JSON.stringify(param),
@@ -60,7 +56,6 @@ function LogInScreen() {
         if (data.success) {
           toast.success("Login successful!");
           localStorage.setItem("token", data.accessToken);
-          setLoggedIn(true);
         } else {
           toast.error(data.loginNotValidReason || "Login failed");
         }
@@ -74,9 +69,8 @@ function LogInScreen() {
   return (
     <div className="body2">
       <div className="mobile_logo">
-
-      <img className="img-responsive" src={logo} alt="" />
-</div>
+        <img className="img-responsive" src={logo} alt="" />
+      </div>
       <div className="pic">
         <div className="pic_tx_mn">
           <img className="img-responsive fm_icon" src={logo} alt="" />
@@ -87,7 +81,7 @@ function LogInScreen() {
       </div>
       <div className="container logn_bg2_mn">
         <div className="pic2"></div>
-        
+
         <div className="log_tx_mn">
           <h2>Login to Continue</h2>
         </div>
@@ -143,7 +137,7 @@ function LogInScreen() {
           </div>
           <div className="form-group fom_wd">
             <input
-              type="password"
+              type={showPassword ? "text" : "password"}
               name="password"
               className="control_n1"
               placeholder="Password"
@@ -156,7 +150,12 @@ function LogInScreen() {
               src={password_icon}
               alt=""
             />
-            <img className="img-responsive fm_icon2" src={eye_icon} alt="" />
+            <img
+              className="img-responsive fm_icon2"
+              src={eye_icon}
+              alt=""
+              onClick={togglePasswordVisibility}
+            />
           </div>
           <div className="ftr_md3">
             <button type="submit" className="log_btn2">
