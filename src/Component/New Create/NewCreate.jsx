@@ -22,7 +22,7 @@ function NewCreate() {
         </div>
       </div>
 
-      <div className="pending_survey_mn">
+      <div className="pending_survey_mn2">
         <div className="container-fluid">
           <div className="survey_wd">
             <h2>Create New</h2>
