@@ -8,7 +8,7 @@ export const API_HEADER = {
 export const fetchPendingData = `${BASE_URL}/....`;
 
 export const LOG_IN_BASE_URL =
-  "https://orbitsys-demo-apimanagementservice.azure-api.net/OrbitsysIdentityApi/api";
+  "https://g2.orbitsys.com/OrbitsysIServiceCoreApi/api";
 
 const businessOwnerCode = "ISUZU";
 const brandCode = "ISUZU";
