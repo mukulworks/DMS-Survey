@@ -266,12 +266,26 @@ a:hover {
 .pending_survey_mn {
   width: 100%;
   float: left;
+  
 }
+
+.pending_survey_mn2 {
+  width: 100%;
+  float: left;
+  padding: 0 30px;
+  
+}
+
 .survey_wd1 {
   width: 30%;
   float: left;
   padding-left: 30px;
 }
+
+.survey_wd h2{font: normal normal 600 25px/33px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-top: 15px;}
 
 .survey_wd1 h2 {
   font: normal normal 600 25px/33px Segoe UI;
@@ -490,7 +504,7 @@ a:hover {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  line-height: 40px;
+  line-height: 35px;
   font-size: 20px;
   color: #554994;
   text-align: center;
@@ -537,6 +551,7 @@ a:hover {
   margin-top: 40px;
   padding-left: 17px;
   display: inline-flex;
+  position: relative;
 }
 
 .fm_styl {
@@ -598,7 +613,7 @@ a:hover {
   margin-top: 90px;
   text-align: right;
   position: absolute;
-  right: 261px;
+  right: 247px;
 }
 
 .survey_wd4 {
@@ -615,7 +630,7 @@ a:hover {
 .survey_wd {
   width: 100%;
   float: left;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .mobile_logo {
@@ -638,3 +653,5 @@ a:hover {
   margin-right: 5px;
   font-size: 20px;
 }
+
+.arro_mn img{width: 32px;}
